@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: navitas-external-forms
-    env: node
-    plan: starter
-    buildCommand: npm install
-    startCommand: npm start
-    healthCheckPath: /health
